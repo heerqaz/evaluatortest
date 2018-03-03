@@ -39,4 +39,8 @@ $ source bin/activate
 ```
 
 7. Open (http://localhost:8000/) in your web browser.
-Go to http://localhost:8000/admin to add questions.
+8. Create a superuser :
+```
+(env) $ python manage.py createsuperuser
+```
+9. Go to http://localhost:8000/admin to add questions.
