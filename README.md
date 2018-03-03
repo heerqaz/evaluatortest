@@ -31,7 +31,6 @@ $ source bin/activate
 (env) $ cd evaluatortest
 (env) $ python3 manage.py migrate
 (env) $ python3 manage.py collectstatic
-(env) $ python3 manage.py train
 ```
 
 6. Start the server:
